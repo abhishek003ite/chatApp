@@ -5,3 +5,6 @@ Route::apiResource('/question', 'QuestionController');
 
 //Category Complete Route
 Route::apiResource('/category', 'CategoryController');
+
+//Reply Complete Route
+Route::apiResource('/question/{question}/reply', 'ReplyController');
